@@ -94,5 +94,21 @@
     "theme": ["#2b2b2b", "#f2b705"],
     "site": true,
     "danish": true
+  },
+  {
+    "repo": "ulfendk/minecraft-rockets",
+    "icon": "img/rockets.png",
+    "name": { "en": "Rockets", "da": "Raketter" },
+    "summary": {
+      "en": "From a water bottle rocket you pump up by hand to model rockets, a rideable sky rocket and a space rocket for four that flies to the edge of the sky, then drops everyone home by parachute. With a jetpack, rocket boosts, launch pads and a Mission Control that counts down from 10.",
+      "da": "Fra en vandraket, du pumper op med hånden, til modelraketter, en sky-raket du kan flyve med, og en rumraket til fire, der flyver helt op til himlens grænse og sender alle hjem i faldskærm. Med jetpack, raketboost, affyringsramper og et kontrolcenter, der tæller ned fra 10."
+    },
+    "highlights": {
+      "en": ["4 rockets", "Jetpack", "Mission control"],
+      "da": ["4 raketter", "Jetpack", "Kontrolcenter"]
+    },
+    "theme": ["#0b1033", "#e8501f"],
+    "site": true,
+    "danish": true
   }
 ]

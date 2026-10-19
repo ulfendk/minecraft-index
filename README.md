@@ -10,6 +10,7 @@ The index of our Minecraft add-ons and mods: **https://ulfendk.github.io/minecra
 | Security Gear | [minecraft-security-gear](https://github.com/ulfendk/minecraft-security-gear) |
 | Realistic Hunting | [minecraft-hunting](https://github.com/ulfendk/minecraft-hunting) |
 | Construction Machines | [minecraft-machines](https://github.com/ulfendk/minecraft-machines) |
+| Rockets | [minecraft-rockets](https://github.com/ulfendk/minecraft-rockets) |
 
 ## Adding a mod
 1. Add an entry to `mods.json` (name, summary and highlights in English and Danish, the repo, a banner gradient, and whether the mod has its own Pages site yet).
