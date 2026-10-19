@@ -20,12 +20,12 @@
     "icon": "img/safari-animals.png",
     "name": { "en": "Safari Animals", "da": "Safaridyr" },
     "summary": {
-      "en": "39 animals from the savanna, the jungle and the Amazon: lions, elephants, giraffes, rhinos, anacondas, piranhas and more, with a food web, herds and stone age weapons.",
-      "da": "39 dyr fra savannen, junglen og Amazonas: løver, elefanter, giraffer, næsehorn, anakondaer, piratfisk og mere, med fødekæde, flokke og stenaldervåben."
+      "en": "41 animals from the savanna, the jungle and the Amazon: lions, elephants, giraffes, rhinos, anacondas, king cobras, black mambas, piranhas and more, with a food web, herds and stone age weapons.",
+      "da": "41 dyr fra savannen, junglen og Amazonas: løver, elefanter, giraffer, næsehorn, anakondaer, kongekobraer, sorte mambaer, piratfisk og mere, med fødekæde, flokke og stenaldervåben."
     },
     "highlights": {
-      "en": ["39 animals", "Food web", "Field Guide"],
-      "da": ["39 dyr", "Fødekæde", "Felthåndbog"]
+      "en": ["41 animals", "Food web", "Field Guide"],
+      "da": ["41 dyr", "Fødekæde", "Felthåndbog"]
     },
     "theme": ["#6b3a12", "#c98a2e"],
     "site": true,
