@@ -52,15 +52,15 @@
     "icon": "img/security-gear.png",
     "name": { "en": "Security Gear", "da": "Sikkerhedsudstyr" },
     "summary": {
-      "en": "Security cameras with live monitors, lasers, bombs, pit traps, prison walls, winding bridges and guard towers.",
-      "da": "Overvågningskameraer med live-skærme, lasere, bomber, faldlemme, fængselsmure, broer og vagttårne."
+      "en": "Security cameras with monitors that show the live picture, laser tripwires and fences, motion sensors, sirens, searchlights, keycard doors, prison walls, pit traps, timed and tripwire bombs, winding bridges, guard towers, guards and guard dogs.",
+      "da": "Overvågningskameraer med skærme, der viser det levende billede, laserstråler og laserhegn, bevægelsessensorer, sirener, projektører, nøglekortdøre, fængselsmure, faldlemme, tids- og snubletrådsbomber, rebbroer, vagttårne, vagter og vagthunde."
     },
     "highlights": {
-      "en": ["Live cameras", "Lasers", "Traps"],
-      "da": ["Live-kameraer", "Lasere", "Fælder"]
+      "en": ["Live cameras", "Lasers and bombs", "Guard towers"],
+      "da": ["Live-kameraer", "Lasere og bomber", "Vagttårne"]
     },
     "theme": ["#1b2228", "#4a5a66"],
-    "site": false,
+    "site": true,
     "danish": true
   }
 ]
