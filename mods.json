@@ -1,0 +1,66 @@
+[
+  {
+    "repo": "ulfendk/minecraft-dinosaurs",
+    "icon": "img/dinosaurs.png",
+    "name": { "en": "Prehistoric Dinosaurs", "da": "Forhistoriske dinosaurer" },
+    "summary": {
+      "en": "50 dinosaurs and 12 other prehistoric creatures, ancient plants and trees, a Prehistoric Jungle biome, electric fences and safari vehicles. Tame and ride them.",
+      "da": "50 dinosaurer og 12 andre forhistoriske dyr, oldtidsplanter og -træer, en forhistorisk jungle-biom, elektriske hegn og safarikøretøjer. Tæm dem og rid på dem."
+    },
+    "highlights": {
+      "en": ["62 creatures", "Rideable", "Electric fences"],
+      "da": ["62 dyr", "Kan rides", "Elektriske hegn"]
+    },
+    "theme": ["#1f3b1a", "#5d7a2a"],
+    "site": true,
+    "danish": true
+  },
+  {
+    "repo": "ulfendk/minecraft-safari-animals",
+    "icon": "img/safari-animals.png",
+    "name": { "en": "Safari Animals", "da": "Safaridyr" },
+    "summary": {
+      "en": "39 animals from the savanna, the jungle and the Amazon: lions, elephants, giraffes, rhinos, anacondas, piranhas and more, with a food web, herds and stone age weapons.",
+      "da": "39 dyr fra savannen, junglen og Amazonas: løver, elefanter, giraffer, næsehorn, anakondaer, piratfisk og mere, med fødekæde, flokke og stenaldervåben."
+    },
+    "highlights": {
+      "en": ["39 animals", "Food web", "Field Guide"],
+      "da": ["39 dyr", "Fødekæde", "Felthåndbog"]
+    },
+    "theme": ["#6b3a12", "#c98a2e"],
+    "site": true,
+    "danish": true
+  },
+  {
+    "repo": "ulfendk/minecraft-werewolfs",
+    "icon": "img/werewolfs.png",
+    "name": { "en": "Werewolves", "da": "Varulve" },
+    "summary": {
+      "en": "An ordinary grey wolf by day. When the sun goes down it howls, rises on two legs, four blocks tall, and goes hunting. Only silver can stop it.",
+      "da": "En almindelig grå ulv om dagen. Når solen går ned, hyler den, rejser sig på to ben, fire blokke høj, og går på jagt. Kun sølv kan stoppe den."
+    },
+    "highlights": {
+      "en": ["Day and night forms", "Silver sword"],
+      "da": ["Dag- og natform", "Sølvsværd"]
+    },
+    "theme": ["#070a1c", "#3a3f78"],
+    "site": true,
+    "danish": true
+  },
+  {
+    "repo": "ulfendk/minecraft-security-gear",
+    "icon": "img/security-gear.png",
+    "name": { "en": "Security Gear", "da": "Sikkerhedsudstyr" },
+    "summary": {
+      "en": "Security cameras with live monitors, lasers, bombs, pit traps, prison walls, winding bridges and guard towers.",
+      "da": "Overvågningskameraer med live-skærme, lasere, bomber, faldlemme, fængselsmure, broer og vagttårne."
+    },
+    "highlights": {
+      "en": ["Live cameras", "Lasers", "Traps"],
+      "da": ["Live-kameraer", "Lasere", "Fælder"]
+    },
+    "theme": ["#1b2228", "#4a5a66"],
+    "site": false,
+    "danish": true
+  }
+]
