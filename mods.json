@@ -78,5 +78,21 @@
     "theme": ["#1f2a14", "#7a5a2a"],
     "site": true,
     "danish": true
+  },
+  {
+    "repo": "ulfendk/minecraft-machines",
+    "icon": "img/construction-machines.png",
+    "name": { "en": "Construction Machines", "da": "Entreprenørmaskiner" },
+    "summary": {
+      "en": "12 big machines you can drive and operate: excavators that really dig, wheel loaders, bulldozers that level the ground, dump trucks that tip their load, and crawler, mobile and tower cranes that lift blocks, animals and other machines.",
+      "da": "12 store maskiner, du kan køre og betjene: gravemaskiner, der graver rigtigt, gummiged, bulldozere, der planerer terrænet, dumpere, der tipper læsset, og bæltekraner, mobilkraner og tårnkraner, der løfter blokke, dyr og andre maskiner."
+    },
+    "highlights": {
+      "en": ["12 machines", "Real digging", "Cranes"],
+      "da": ["12 maskiner", "Graver rigtigt", "Kraner"]
+    },
+    "theme": ["#2b2b2b", "#f2b705"],
+    "site": true,
+    "danish": true
   }
 ]
