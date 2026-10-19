@@ -97,7 +97,15 @@ function page(lang) {
 <meta name="description" content="${esc(t.description)}">
 <link rel="alternate" hreflang="en" href="${ROOT_URL}">
 <link rel="alternate" hreflang="da" href="${ROOT_URL}da/">
-<link rel="icon" href="${up}favicon.png">
+<link rel="icon" href="${up}favicon.png">${lang === 'en' ? `
+<script>
+// Danish browsers get the Danish page, unless the visitor picked a language with the switch.
+try {
+  const chosen = localStorage.getItem('lang');
+  const preferred = (navigator.languages || [navigator.language]).map((l) => String(l).toLowerCase().slice(0, 2)).find((l) => l === 'da' || l === 'en');
+  if (chosen === 'da' || (!chosen && preferred === 'da')) location.replace('da/' + location.search + location.hash);
+} catch {}
+</script>` : ''}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500&display=swap" rel="stylesheet">
@@ -157,7 +165,7 @@ footer { color: var(--muted); font-size: .9rem; padding: 24px 0 40px; }
 <body>
 <header class="hero">
   <div class="wrap">
-    <nav class="langs"><a href="${t.otherHref}" hreflang="${lang === 'en' ? 'da' : 'en'}">${esc(t.other)}</a></nav>
+    <nav class="langs"><a href="${t.otherHref}" hreflang="${lang === 'en' ? 'da' : 'en'}" data-lang="${lang === 'en' ? 'da' : 'en'}">${esc(t.other)}</a></nav>
     <h1>${esc(t.title)}</h1>
     <p>${t.lede}</p>
   </div>
@@ -168,6 +176,10 @@ footer { color: var(--muted); font-size: .9rem; padding: 24px 0 40px; }
 </main>
 <footer class="wrap">${esc(t.footer)}</footer>
 <script>
+// Remember an explicit language choice, so detection doesn't override it.
+document.querySelector('[data-lang]').addEventListener('click', (e) => {
+  try { localStorage.setItem('lang', e.currentTarget.dataset.lang); } catch {}
+});
 // Refresh the version badges from the GitHub API, so a new release shows up without a redeploy.
 const L = ${JSON.stringify({ latest: t.latest })};
 for (const card of document.querySelectorAll('[data-repo]')) {
