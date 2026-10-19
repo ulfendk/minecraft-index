@@ -110,5 +110,21 @@
     "theme": ["#0b1033", "#e8501f"],
     "site": true,
     "danish": true
+  },
+  {
+    "repo": "ulfendk/minecraft-scouts",
+    "icon": "img/scouts.png",
+    "name": { "en": "Scouts", "da": "Spejdere" },
+    "summary": {
+      "en": "Classic Baden-Powell scouting: campaign hat, khaki shirt, neckerchief and woggle, and a scout stave. Earn 14 proficiency badges by lighting fires with a bow drill, lashing spars, cooking in a billycan, swimming, signalling and camping, and watch each one appear on your sleeve as you rise from Tenderfoot to King's Scout.",
+      "da": "Klassisk spejderliv à la Baden-Powell: spejderhat, kakiskjorte, tørklæde og knob, og en spejderstav. Tag 14 duelighedsmærker ved at tænde bål med buebor, surre rafter, lave mad i kogespand, svømme, signalere og slå lejr, og se hvert mærke komme på ærmet, mens du stiger fra spejder til kongespejder."
+    },
+    "highlights": {
+      "en": ["14 proficiency badges", "Badges on your uniform", "Scout Handbook"],
+      "da": ["14 duelighedsmærker", "Mærker på uniformen", "Spejderhåndbog"]
+    },
+    "theme": ["#22361e", "#8a6a40"],
+    "site": true,
+    "danish": true
   }
 ]
