@@ -21,6 +21,8 @@ const STRINGS = {
     editions: 'Bedrock + Java',
     other: 'Dansk',
     otherHref: 'da/',
+    upgradeTitle: 'Upgrading to a new version',
+    upgrade: 'On Bedrock, open the new <em>.mcaddon</em> file and Minecraft replaces the old version. If the old one keeps running, delete it under <em>Settings → Storage</em> (both <em>Resource Packs</em> and <em>Behavior Packs</em>), open the new file again and check that the packs are turned on in the world’s <em>Edit</em> screen. On Java Edition, swap the old jar in your <em>mods</em> folder for the new one. Each add-on’s page has the details.',
     footer: 'Made with code. Not affiliated with Mojang or Microsoft.',
   },
   da: {
@@ -36,6 +38,8 @@ const STRINGS = {
     editions: 'Bedrock + Java',
     other: 'English',
     otherHref: '../',
+    upgradeTitle: 'Opdatering til en ny version',
+    upgrade: 'På Bedrock åbner du den nye <em>.mcaddon</em>-fil, så erstatter Minecraft den gamle version. Hvis den gamle stadig kører, så slet den under <em>Indstillinger → Lagerplads</em> (både <em>Ressourcepakker</em> og <em>Adfærdspakker</em>), åbn den nye fil igen, og tjek, at pakkerne er slået til, når du redigerer verdenen. På Java Edition skifter du den gamle jar i <em>mods</em>-mappen ud med den nye. Hver add-ons side har detaljerne.',
     footer: 'Lavet med kode. Ikke tilknyttet Mojang eller Microsoft.',
   },
 };
@@ -159,6 +163,9 @@ main { padding: 40px 0 24px; }
 .btn:hover { transform: translateY(-1px); }
 .btn.ghost { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 1.5px var(--line); }
 .btn.ghost:hover { box-shadow: inset 0 0 0 1.5px var(--accent); }
+.upgrade { margin-top: 36px; max-width: 72ch; }
+.upgrade h2 { font-size: 1.4rem; margin: 0 0 8px; }
+.upgrade p { margin: 0; color: var(--muted); }
 footer { color: var(--muted); font-size: .9rem; padding: 24px 0 40px; }
 </style>
 </head>
@@ -173,6 +180,10 @@ footer { color: var(--muted); font-size: .9rem; padding: 24px 0 40px; }
 <main class="wrap">
   <div class="grid">${mods.map((m, i) => card(m, tags[i], lang)).join('')}
   </div>
+  <section class="upgrade" id="upgrade">
+    <h2>${esc(t.upgradeTitle)}</h2>
+    <p>${t.upgrade}</p>
+  </section>
 </main>
 <footer class="wrap">${esc(t.footer)}</footer>
 <script>
