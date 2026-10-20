@@ -4,8 +4,8 @@
     "icon": "img/dinosaurs.png",
     "name": { "en": "Prehistoric Dinosaurs", "da": "Forhistoriske dinosaurer" },
     "summary": {
-      "en": "50 dinosaurs and 12 other prehistoric creatures, ancient plants and trees, a Prehistoric Jungle biome, electric fences and safari vehicles. Tame and ride them.",
-      "da": "50 dinosaurer og 12 andre forhistoriske dyr, oldtidsplanter og -træer, en forhistorisk jungle-biom, elektriske hegn og safarikøretøjer. Tæm dem og rid på dem."
+      "en": "50 dinosaurs and 12 other prehistoric creatures, ancient plants and trees, a Prehistoric Jungle biome, electric fences and safari vehicles. Tame and ride them, or hunt them with Realistic Hunting.",
+      "da": "50 dinosaurer og 12 andre forhistoriske dyr, oldtidsplanter og -træer, en forhistorisk jungle-biom, elektriske hegn og safarikøretøjer. Tæm dem og rid på dem, eller gå på jagt efter dem med Realistisk jagt."
     },
     "highlights": {
       "en": ["62 creatures", "Rideable", "Electric fences"],
@@ -20,8 +20,8 @@
     "icon": "img/safari-animals.png",
     "name": { "en": "Safari Animals", "da": "Safaridyr" },
     "summary": {
-      "en": "41 animals from the savanna, the jungle and the Amazon: lions, elephants, giraffes, rhinos, anacondas, king cobras, black mambas, piranhas and more, with a food web, herds and stone age weapons.",
-      "da": "41 dyr fra savannen, junglen og Amazonas: løver, elefanter, giraffer, næsehorn, anakondaer, kongekobraer, sorte mambaer, piratfisk og mere, med fødekæde, flokke og stenaldervåben."
+      "en": "41 animals from the savanna, the jungle and the Amazon: lions, elephants, giraffes, rhinos, anacondas, king cobras, black mambas, piranhas and more, with a food web, herds and stone age weapons. Go on safari with Realistic Hunting.",
+      "da": "41 dyr fra savannen, junglen og Amazonas: løver, elefanter, giraffer, næsehorn, anakondaer, kongekobraer, sorte mambaer, piratfisk og mere, med fødekæde, flokke og stenaldervåben. Tag på safari med Realistisk jagt."
     },
     "highlights": {
       "en": ["41 animals", "Food web", "Field Guide"],
@@ -68,8 +68,8 @@
     "icon": "img/hunting.png",
     "name": { "en": "Realistic Hunting", "da": "Realistisk jagt" },
     "summary": {
-      "en": "15 game species that see, hear and smell you, from deer, moose and boar to bears, game birds and fish. Read the wind, aim through a real scope with bullet drop, and see on an x-ray exactly which organs your shot hit. Go spearfishing with a speargun, scuba gear and a mini submarine. With blood trails, trophies and a hunting dog.",
-      "da": "15 vildtarter, der ser, hører og lugter dig, fra hjorte, elge og vildsvin til bjørne, vildtfugle og fisk. Læs vinden, sigt gennem et rigtigt kikkertsigte med kuglefald, og se på et røntgenbillede præcis, hvilke organer dit skud ramte. Gå på harpunfiskeri med harpungevær, dykkerudstyr og mini-ubåd. Med blodspor, trofæer og jagthund."
+      "en": "15 game species that see, hear and smell you, from deer, moose and boar to bears, game birds and fish. Read the wind, aim through a real scope with bullet drop, and see on an x-ray exactly which organs your shot hit. Go spearfishing with a speargun, scuba gear and a mini submarine. With blood trails, trophies and a hunting dog. With Safari Animals or Prehistoric Dinosaurs installed, their creatures are game too.",
+      "da": "15 vildtarter, der ser, hører og lugter dig, fra hjorte, elge og vildsvin til bjørne, vildtfugle og fisk. Læs vinden, sigt gennem et rigtigt kikkertsigte med kuglefald, og se på et røntgenbillede præcis, hvilke organer dit skud ramte. Gå på harpunfiskeri med harpungevær, dykkerudstyr og mini-ubåd. Med blodspor, trofæer og jagthund. Med Safaridyr eller Forhistoriske dinosaurer installeret er deres dyr også vildt."
     },
     "highlights": {
       "en": ["15 game species", "Scope and wind", "Shot report", "Spearfishing"],
