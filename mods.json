@@ -132,12 +132,12 @@
     "icon": "img/flights.png",
     "name": { "en": "Flights", "da": "Flights" },
     "summary": {
-      "en": "Seven aircraft you can fly: a paraglider, a hot-air balloon, a glider, a light aircraft, a business jet, a gyrocopter and a helicopter. Ride the thermals, find a wind at another height to steer the balloon – and if it goes wrong, bail out and open your parachute.",
-      "da": "Syv luftfartøjer, som du kan flyve: en paraglider, en varmluftballon, et svævefly, et lille fly, et jetfly, en gyrokopter og en helikopter. Flyv på opvinden, find en vind i en anden højde for at styre ballonen – og går det galt, så spring ud og åbn din faldskærm."
+      "en": "Eight aircraft you can fly: a paraglider, a hot-air balloon, a glider, a light aircraft, a seaplane that lands on water, a business jet, a gyrocopter and a helicopter. Ride the thermals, find a wind at another height to steer the balloon – and if it goes wrong, bail out and open your parachute.",
+      "da": "Otte luftfartøjer, som du kan flyve: en paraglider, en varmluftballon, et svævefly, et lille fly, et vandfly, der lander på vandet, et jetfly, en gyrokopter og en helikopter. Flyv på opvinden, find en vind i en anden højde for at styre ballonen – og går det galt, så spring ud og åbn din faldskærm."
     },
     "highlights": {
-      "en": ["7 aircraft", "Parachutes and bailing out", "Hunt from the balloon"],
-      "da": ["7 luftfartøjer", "Faldskærme og udspring", "Jagt fra ballonen"]
+      "en": ["8 aircraft", "Parachutes and bailing out", "Hunt from the balloon"],
+      "da": ["8 luftfartøjer", "Faldskærme og udspring", "Jagt fra ballonen"]
     },
     "theme": ["#1b4f9c", "#7fc0ef"],
     "site": true,
