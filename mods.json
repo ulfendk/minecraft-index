@@ -142,5 +142,21 @@
     "theme": ["#1b4f9c", "#7fc0ef"],
     "site": true,
     "danish": true
+  },
+  {
+    "repo": "ulfendk/minecraft-outboards",
+    "icon": "img/outboards.png",
+    "name": { "en": "Outboards", "da": "Påhængsmotorer" },
+    "summary": {
+      "en": "Outboard motors for boats – and for rafts you build out of any blocks. Clamp a motor on, fill it up with coal or redstone, and take your house boat, floating farm or pirate ship out to sea. Four motors, from a silent electric to a 90 hp V4.",
+      "da": "Påhængsmotorer til både – og til flåder, du bygger af hvilke som helst blokke. Sæt en motor på, fyld den op med kul eller redstone, og sejl din husbåd, flydende gård eller dit piratskib ud på havet. Fire motorer, fra en lydløs elmotor til en 90 hk V4."
+    },
+    "highlights": {
+      "en": ["4 outboard motors", "Rafts built from blocks", "Motorboats of every wood"],
+      "da": ["4 påhængsmotorer", "Flåder bygget af blokke", "Motorbåde af alle slags træ"]
+    },
+    "theme": ["#0b5e7a", "#7fd3e0"],
+    "site": true,
+    "danish": true
   }
 ]
