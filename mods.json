@@ -158,5 +158,21 @@
     "theme": ["#0b5e7a", "#7fd3e0"],
     "site": true,
     "danish": true
+  },
+  {
+    "repo": "ulfendk/minecraft-aquatic",
+    "icon": "img/aquatic.png",
+    "name": { "en": "Sea Life", "da": "Havets dyr" },
+    "summary": {
+      "en": "35 creatures of rivers, lakes and seas: pike, herring, plaice, clownfish, sharks, seals, orcas, blue whales and penguins. Two fishing rods with a real fight on the line, tame seals, whales you can ride by the fin and penguins that toboggan across the ice.",
+      "da": "35 dyr fra åer, søer og have: gedder, sild, rødspætter, klovnfisk, hajer, sæler, spækhuggere, blåhvaler og pingviner. To fiskestænger med rigtig kamp på linen, tamme sæler, hvaler du kan ride på ved finnen, og pingviner der kælker hen over isen."
+    },
+    "highlights": {
+      "en": ["35 species", "Fishing with a fight", "Ride a whale"],
+      "da": ["35 arter", "Fiskeri med kamp", "Rid på en hval"]
+    },
+    "theme": ["#0a3d62", "#3dc1d3"],
+    "site": true,
+    "danish": true
   }
 ]

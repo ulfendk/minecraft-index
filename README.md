@@ -13,6 +13,7 @@ The index of our Minecraft add-ons and mods: **https://ulfendk.github.io/minecra
 | Rockets | [minecraft-rockets](https://github.com/ulfendk/minecraft-rockets) |
 | Scouts | [minecraft-scouts](https://github.com/ulfendk/minecraft-scouts) |
 | Flights | [minecraft-flights](https://github.com/ulfendk/minecraft-flights) |
+| Sea Life | [minecraft-aquatic](https://github.com/ulfendk/minecraft-aquatic) |
 
 ## Adding a mod
 1. Add an entry to `mods.json` (name, summary and highlights in English and Danish, the repo, a banner gradient, and whether the mod has its own Pages site yet).

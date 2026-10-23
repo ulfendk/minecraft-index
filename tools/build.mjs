@@ -10,7 +10,7 @@ const mods = JSON.parse(await readFile('mods.json', 'utf8'));
 const STRINGS = {
   en: {
     title: 'Minecraft mods by ulfendk',
-    description: 'Free Minecraft add-ons and mods for Bedrock and Java Edition: dinosaurs, safari animals, werewolves, security gear, realistic hunting, construction machines, rockets, scouting and aircraft.',
+    description: 'Free Minecraft add-ons and mods for Bedrock and Java Edition: dinosaurs, safari animals, werewolves, security gear, realistic hunting, construction machines, rockets, scouting, aircraft and sea life: fish, seals, whales and penguins.',
     lede: 'Free add-ons for <b>Bedrock</b> and mods for <b>Java Edition</b> (Fabric). Every model, texture and animation is generated from code, and the source is on GitHub.',
     count: (n) => `${n} mods`,
     website: 'Website and download',
@@ -27,7 +27,7 @@ const STRINGS = {
   },
   da: {
     title: 'Minecraft-mods af ulfendk',
-    description: 'Gratis Minecraft add-ons og mods til Bedrock og Java Edition: dinosaurer, safaridyr, varulve, sikkerhedsudstyr, realistisk jagt, entreprenørmaskiner, raketter, spejderliv og flyvemaskiner.',
+    description: 'Gratis Minecraft add-ons og mods til Bedrock og Java Edition: dinosaurer, safaridyr, varulve, sikkerhedsudstyr, realistisk jagt, entreprenørmaskiner, raketter, spejderliv, flyvemaskiner og havets dyr: fisk, sæler, hvaler og pingviner.',
     lede: 'Gratis add-ons til <b>Bedrock</b> og mods til <b>Java Edition</b> (Fabric). Alle modeller, teksturer og animationer er lavet med kode, og kildekoden ligger på GitHub.',
     count: (n) => `${n} mods`,
     website: 'Hjemmeside og download',
