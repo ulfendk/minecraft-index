@@ -174,5 +174,21 @@
     "theme": ["#0a3d62", "#3dc1d3"],
     "site": true,
     "danish": true
+  },
+  {
+    "repo": "ulfendk/minecraft-birds-of-prey",
+    "icon": "img/birds-of-prey.png",
+    "name": { "en": "Birds of Prey", "da": "Rovfugle" },
+    "summary": {
+      "en": "22 eagles, falcons, hawks, owls and vultures: peregrines that stoop, kestrels that hover, ospreys that plunge for fish and owls that hunt at night. Train a hawk on your glove, hold falconry contests and bird races with your friends, and go birdwatching with binoculars, bird rings, hides and nest boxes.",
+      "da": "22 ørne, falke, høge, ugler og gribbe: vandrefalke der styrtdykker, tårnfalke der står stille i luften, fiskeørne der dykker efter fisk og ugler der jager om natten. Træn en høg på din handske, hold falkejagtkonkurrencer og fugleræs med dine venner, og gå på fugletur med kikkert, ringmærkning, fugleskjul og redekasser."
+    },
+    "highlights": {
+      "en": ["22 birds", "Falconry", "Contests"],
+      "da": ["22 fugle", "Falkejagt", "Konkurrencer"]
+    },
+    "theme": ["#1d2342", "#d08a2c"],
+    "site": true,
+    "danish": true
   }
 ]
