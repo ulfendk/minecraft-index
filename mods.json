@@ -20,12 +20,12 @@
     "icon": "img/safari-animals.png",
     "name": { "en": "Safari Animals", "da": "Safaridyr" },
     "summary": {
-      "en": "47 animals from the savanna, the jungle and the Amazon: lions, elephants, giraffes, rhinos, jaguars, bears, anacondas, king cobras, black mambas, piranhas and more, with a food web, herds and stone age weapons. Go on safari with Realistic Hunting.",
-      "da": "47 dyr fra savannen, junglen og Amazonas: løver, elefanter, giraffer, næsehorn, jaguarer, bjørne, anakondaer, kongekobraer, sorte mambaer, piratfisk og mere, med fødekæde, flokke og stenaldervåben. Tag på safari med Realistisk jagt."
+      "en": "52 animals from the savanna, the jungle, the Amazon and the mountains: lions, elephants, giraffes, rhinos, jaguars, bears, bighorn sheep, yaks, anacondas, king cobras, black mambas, piranhas and more, with a food web, herds and stone age weapons. Go on safari with Realistic Hunting.",
+      "da": "52 dyr fra savannen, junglen, Amazonas og bjergene: løver, elefanter, giraffer, næsehorn, jaguarer, bjørne, tykhornsfår, yakker, anakondaer, kongekobraer, sorte mambaer, piratfisk og mere, med fødekæde, flokke og stenaldervåben. Tag på safari med Realistisk jagt."
     },
     "highlights": {
-      "en": ["47 animals", "Food web", "Field Guide"],
-      "da": ["47 dyr", "Fødekæde", "Felthåndbog"]
+      "en": ["52 animals", "Food web", "Field Guide"],
+      "da": ["52 dyr", "Fødekæde", "Felthåndbog"]
     },
     "theme": ["#6b3a12", "#c98a2e"],
     "site": true,
