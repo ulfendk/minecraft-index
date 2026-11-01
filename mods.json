@@ -190,5 +190,21 @@
     "theme": ["#1d2342", "#d08a2c"],
     "site": true,
     "danish": true
+  },
+  {
+    "repo": "ulfendk/minecraft-amusement-park",
+    "icon": "img/amusement-park.png",
+    "name": { "en": "Amusement Park", "da": "Forlystelsespark" },
+    "summary": {
+      "en": "Build your own fairground: a merry-go-round with a band organ, a ferris wheel, a swing ride, a swinging pirate ship, a drop tower, a water slide and bumper cars – and roller coasters you build yourself from ordinary rails, with lift hills, stations and trains of up to eight cars.",
+      "da": "Byg dit eget tivoli: en karrusel med lirekassemusik, et pariserhjul, en kædekarrusel, et gyngende piratskib, et faldtårn, en vandrutsjebane og radiobiler – og rutsjebaner, du selv bygger af almindelige skinner, med liftbakker, stationer og tog med op til otte vogne."
+    },
+    "highlights": {
+      "en": ["8 rides", "Build your own coasters", "Bumper cars"],
+      "da": ["8 forlystelser", "Byg dine egne rutsjebaner", "Radiobiler"]
+    },
+    "theme": ["#1b2350", "#e0607a"],
+    "site": true,
+    "danish": true
   }
 ]
