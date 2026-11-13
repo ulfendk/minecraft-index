@@ -206,5 +206,21 @@
     "theme": ["#1b2350", "#e0607a"],
     "site": true,
     "danish": true
+  },
+  {
+    "repo": "ulfendk/minecraft-lavagun",
+    "icon": "img/lavagun.png",
+    "name": { "en": "Lava Guns", "da": "Lavakanoner" },
+    "summary": {
+      "en": "A lava pistol, a lava gun that shuts mobs in obsidian, a magma sprayer and magma grenades – with lava that disappears again. Magmasteel tools and armour that smelt ores and walk on lava, lava lamps, a lava tank, and magma golems and lava slugs in the Nether.",
+      "da": "En lavapistol, en lavakanon, der lukker væsner inde i obsidian, en magmasprøjte og magmagranater – med lava, der forsvinder igen. Værktøj og rustning af magmastål, der smelter malm og går på lava, lavalamper, en lavatank og magmagolemmer og lavasnegle i Nether."
+    },
+    "highlights": {
+      "en": ["4 lava weapons", "Obsidian shell", "Magmasteel gear"],
+      "da": ["4 lavavåben", "Obsidianskal", "Magmastålsudstyr"]
+    },
+    "theme": ["#2a0e06", "#e8561c"],
+    "site": true,
+    "danish": true
   }
 ]
