@@ -17,6 +17,7 @@ The index of our Minecraft add-ons and mods: **https://ulfendk.github.io/minecra
 | Birds of Prey | [minecraft-birds-of-prey](https://github.com/ulfendk/minecraft-birds-of-prey) |
 | Amusement Park | [minecraft-amusement-park](https://github.com/ulfendk/minecraft-amusement-park) |
 | Lava Guns | [minecraft-lavagun](https://github.com/ulfendk/minecraft-lavagun) |
+| Ice Age Animals | [minecraft-iceage-animals](https://github.com/ulfendk/minecraft-iceage-animals) |
 
 ## Adding a mod
 1. Add an entry to `mods.json` (name, summary and highlights in English and Danish, the repo, a banner gradient, and whether the mod has its own Pages site yet).

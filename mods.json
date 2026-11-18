@@ -68,8 +68,8 @@
     "icon": "img/hunting.png",
     "name": { "en": "Realistic Hunting", "da": "Realistisk jagt" },
     "summary": {
-      "en": "15 game species that see, hear and smell you, from deer, moose and boar to bears, game birds and fish. Read the wind, aim through a real scope with bullet drop, and see on an x-ray exactly which organs your shot hit. Go spearfishing with a speargun, scuba gear and a mini submarine. Hit animals run before they drop: follow the blood trail, with a hunting dog if you like, and take home the trophy. With Safari Animals or Prehistoric Dinosaurs installed, their creatures are game too.",
-      "da": "15 vildtarter, der ser, hører og lugter dig, fra hjorte, elge og vildsvin til bjørne, vildtfugle og fisk. Læs vinden, sigt gennem et rigtigt kikkertsigte med kuglefald, og se på et røntgenbillede præcis, hvilke organer dit skud ramte. Gå på harpunfiskeri med harpungevær, dykkerudstyr og mini-ubåd. Ramte dyr løber et stykke, før de falder: følg blodsporet, gerne med jagthund, og tag trofæet med hjem. Med Safaridyr eller Forhistoriske dinosaurer installeret er deres dyr også vildt."
+      "en": "15 game species that see, hear and smell you, from deer, moose and boar to bears, game birds and fish. Read the wind, aim through a real scope with bullet drop, and see on an x-ray exactly which organs your shot hit. Go spearfishing with a speargun, scuba gear and a mini submarine. Hit animals run before they drop: follow the blood trail, with a hunting dog if you like, and take home the trophy. With Safari Animals, Prehistoric Dinosaurs or Ice Age Animals installed, their creatures are game too.",
+      "da": "15 vildtarter, der ser, hører og lugter dig, fra hjorte, elge og vildsvin til bjørne, vildtfugle og fisk. Læs vinden, sigt gennem et rigtigt kikkertsigte med kuglefald, og se på et røntgenbillede præcis, hvilke organer dit skud ramte. Gå på harpunfiskeri med harpungevær, dykkerudstyr og mini-ubåd. Ramte dyr løber et stykke, før de falder: følg blodsporet, gerne med jagthund, og tag trofæet med hjem. Med Safaridyr, Forhistoriske dinosaurer eller Istidsdyr installeret er deres dyr også vildt."
     },
     "highlights": {
       "en": ["15 game species", "Scope and wind", "Shot report", "Spearfishing"],
@@ -220,6 +220,22 @@
       "da": ["6 lavavåben", "Vulkaner", "Magmastålsudstyr"]
     },
     "theme": ["#2a0e06", "#e8561c"],
+    "site": true,
+    "danish": true
+  },
+  {
+    "repo": "ulfendk/minecraft-iceage-animals",
+    "icon": "img/iceage.png",
+    "name": { "en": "Ice Age Animals", "da": "Istidsdyr" },
+    "summary": {
+      "en": "20 animals of the last Ice Age, each built to its real size: woolly mammoths, sabre-toothed cats, giant ground sloths, cave bears, woolly rhinos and more. Ride a mammoth across the frozen steppe, dig frozen remains out of the permafrost and thaw them over a campfire, or hunt them with Realistic Hunting.",
+      "da": "20 dyr fra den sidste istid, alle i deres rigtige størrelse: uldhårede mammutter, sabelkatte, kæmpedovendyr, hulebjørne, uldhårede næsehorn og mange flere. Rid på en mammut over den frosne steppe, grav frosne rester ud af permafrosten og tø dem op over et lejrbål, eller gå på jagt efter dem med Realistisk jagt."
+    },
+    "highlights": {
+      "en": ["20 Ice Age animals", "Real sizes", "Rideable mammoths"],
+      "da": ["20 istidsdyr", "Rigtige størrelser", "Mammutter, der kan rides"]
+    },
+    "theme": ["#27465e", "#8fb8d0"],
     "site": true,
     "danish": true
   }
