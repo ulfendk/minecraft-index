@@ -238,5 +238,21 @@
     "theme": ["#27465e", "#8fb8d0"],
     "site": true,
     "danish": true
+  },
+  {
+    "repo": "ulfendk/minecraft-laser-tag",
+    "icon": "img/laser-tag.png",
+    "name": { "en": "Laser Tag", "da": "Lasertag" },
+    "summary": {
+      "en": "Laser tag with your friends or against laser bots: four laser guns and pulse grenades, team vests, a game console with Team Deathmatch, Free-for-all, Capture the Flag and King of the Hill, spawn pads, flag stands, control points, power-ups and glowing neon arena blocks. Scores, streaks and an MVP – and lasers never hurt.",
+      "da": "Lasertag med dine venner eller mod laserrobotter: fire lasergeværer og pulsgranater, holdveste, en spilkonsol med Hold mod hold, Alle mod alle, Erobr flaget og Bakkens konge, startplader, flagstandere, kontrolpunkter, powerups og lysende neonblokke til arenaen. Point, stime og kampens spiller – og laserne gør aldrig ondt."
+    },
+    "highlights": {
+      "en": ["4 game modes", "Laser bots", "Power-ups"],
+      "da": ["4 spiltyper", "Laserrobotter", "Powerups"]
+    },
+    "theme": ["#0b0f2a", "#ff2bd6"],
+    "site": true,
+    "danish": true
   }
 ]
