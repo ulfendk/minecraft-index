@@ -40,3 +40,7 @@ Every mod has its own Pages site, built in its own repo, and all of them share o
 The page looks up the latest release in the browser, and reloads itself when the site is redeployed with a new `version.json`. Each mod keeps its own colours as CSS variables on `:root`, with a dark variant.
 
 The generator is `tools/site.mjs`, with the website texts in English and Danish in `src/i18n.mjs`. Prehistoric Dinosaurs is the exception: its generator is TypeScript, `tools/site/build-site.ts`, with the texts in the same file. To start a new mod's site, copy `tools/site.mjs` and the website part of `src/i18n.mjs` from [minecraft-werewolfs](https://github.com/ulfendk/minecraft-werewolfs) (the smallest one) and replace the content sections.
+
+## Support
+
+If you enjoy our mods, you can support us on [GitHub Sponsors](https://github.com/sponsors/ulfendk) or [Buy Me a Coffee](https://buymeacoffee.com/ulfendk).

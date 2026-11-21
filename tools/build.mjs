@@ -167,12 +167,18 @@ main { padding: 40px 0 24px; }
 .upgrade h2 { font-size: 1.4rem; margin: 0 0 8px; }
 .upgrade p { margin: 0; color: var(--muted); }
 footer { color: var(--muted); font-size: .9rem; padding: 24px 0 40px; }
+.reload { display: inline-grid; place-items: center; width: 30px; height: 30px; padding: 0; border: 0; border-radius: 50%; background: transparent; color: inherit; box-shadow: inset 0 0 0 1.5px currentColor; cursor: pointer; vertical-align: middle; }
+.reload:hover, .reload:focus-visible { background: rgb(255 255 255 / .12); }
+.reload svg { width: 16px; height: 16px; }
+.langs span, .langs { align-items: center; }
+.langs span { display: inline-flex; gap: 8px; }
+.langs { gap: 8px; }
 </style>
 </head>
 <body>
 <header class="hero">
   <div class="wrap">
-    <nav class="langs"><a href="${t.otherHref}" hreflang="${lang === 'en' ? 'da' : 'en'}" data-lang="${lang === 'en' ? 'da' : 'en'}">${esc(t.other)}</a></nav>
+    <nav class="langs"><a href="${t.otherHref}" hreflang="${lang === 'en' ? 'da' : 'en'}" data-lang="${lang === 'en' ? 'da' : 'en'}">${esc(t.other)}</a><button class="reload" type="button" aria-label="${lang === 'da' ? 'Genindlæs' : 'Reload'}" title="${lang === 'da' ? 'Genindlæs' : 'Reload'}" onclick="location.replace(location.pathname + '?r=' + Date.now() + location.hash)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66"/><path d="M20 4v5h-5"/></svg></button></nav>
     <h1>${esc(t.title)}</h1>
     <p>${t.lede}</p>
   </div>
@@ -185,7 +191,10 @@ footer { color: var(--muted); font-size: .9rem; padding: 24px 0 40px; }
     <p>${t.upgrade}</p>
   </section>
 </main>
-<footer class="wrap">${esc(t.footer)}</footer>
+<footer class="wrap">
+  <p>${esc(t.footer)}</p>
+  <p>${lang === 'da' ? 'Kan du lide vores mods? Støt os på' : 'Enjoy our mods? Support us on'} <a href="https://github.com/sponsors/ulfendk">GitHub Sponsors</a> · <a href="https://buymeacoffee.com/ulfendk">Buy Me a Coffee</a></p>
+</footer>
 <script>
 // Remember an explicit language choice, so detection doesn't override it.
 document.querySelector('[data-lang]').addEventListener('click', (e) => {
